@@ -9,6 +9,9 @@ TagManager:
   - +10
   - boss
   - +15
+  - main character
+  - 2x
+  - clone
   layers:
   - Default
   - TransparentFX

@@ -27,8 +27,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.760727, y: 4.3197627, z: 1.0575867}
-  m_Center: {x: -0.03097698, y: 1.6598796, z: -0.13083458}
+  m_Size: {x: 0.7699376, y: 4.3197627, z: 0.6810045}
+  m_Center: {x: 0.042522214, y: 1.6598796, z: 0.057456493}
 --- !u!114 &2386817661453601051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43,6 +43,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainCharacterPos: {fileID: 0}
   clonePos: {fileID: 0}
+  destinyMain: {fileID: 0}
+  destiny1: {fileID: 0}
+  destiny2: {fileID: 0}
+  destiny3: {fileID: 0}
+  destiny4: {fileID: 0}
   mainCharacter: {fileID: 0}
   cloneCharacter: {fileID: 0}
 --- !u!1001 &7114591007627465899
@@ -55,6 +60,10 @@ PrefabInstance:
     - target: {fileID: 122717162559022366, guid: 5042af84c8668e947b57441c6df6c7f9, type: 3}
       propertyPath: m_Name
       value: Character_Run (1) Variant 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 122717162559022366, guid: 5042af84c8668e947b57441c6df6c7f9, type: 3}
+      propertyPath: m_TagString
+      value: clone
       objectReference: {fileID: 0}
     - target: {fileID: 790428152070209444, guid: 5042af84c8668e947b57441c6df6c7f9, type: 3}
       propertyPath: m_RootOrder
